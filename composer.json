@@ -1,0 +1,35 @@
+{
+    "name": "maybeway/simple-event-bus",
+    "type": "library",
+    "description": "PHP CQRS Simple event Bus of Maybeway/ddd-cqrs-es",
+    "keywords": ["cqrs", "event bus", "aggregate"],
+    "homepage": "https://github.com/Maybeway/SimpleEventBus.git",
+    "license": "MIT",
+    "source": {
+        "url": "https://github.com/Maybeway/SimpleEventBus.git",
+        "type": "git",
+        "reference": "master"
+    },
+    "require": {
+        "php": "^7.2",
+        "psr/container": "^1.0",
+        "maybeway/ddd-cqrs-es": "^0.1"
+    },
+    "authors": [
+        {
+            "name": "Michal Koričanský",
+            "email": "michal.koricansky@maybeway.com",
+            "homepage": "http://michalkoricansky.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maybeway\\SimpleEventBus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maybeway\\SimpleEventBus\\Test\\": "tests/"
+        }
+    }
+}
