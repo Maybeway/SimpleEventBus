@@ -1,7 +1,7 @@
 {
     "name": "maybeway/simple-event-bus",
     "type": "library",
-    "description": "PHP CQRS Simple event Bus of Maybeway/ddd-cqrs-es",
+    "description": "PHP Event Sourcing : Simple event Bus of Maybeway/ddd-cqrs-es",
     "keywords": ["cqrs", "event bus", "aggregate"],
     "homepage": "https://github.com/Maybeway/SimpleEventBus.git",
     "license": "MIT",
